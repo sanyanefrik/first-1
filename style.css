@@ -1,0 +1,522 @@
+*, a, div, p, img{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 100%;
+	min-height: 500px;
+}
+.container{
+	width: 1440px;
+	min-height: 500px;
+	background: pink;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	background: pink;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+}
+.nav1{
+	width: 100%;
+	height: 25px;
+	display: flex;
+	background: #000000;
+}
+.mine{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #a0e080;
+	font-weight: bold;
+	margin-top: auto;
+	margin-left: 70px;
+}
+.vhod{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #a0e080;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: auto;
+	margin-left: 916px;
+}
+.activ{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #a0e080;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: auto;
+	margin-left: 50px;
+}
+.nav2{
+	width: 100%;
+	height: 75px;
+	display: flex;
+	background: #111111;
+}
+.zakrit{
+	width: 100%;
+	height: 100px;
+	background: #000000;
+}
+.igri{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 29px;
+	margin-left: 70px;
+}
+.soob{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.tovari{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.poderzh{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.fotomine{
+	font-size: 12px;
+	width: 200px;
+	height: 50px;
+	background-size: 100%;
+	margin-top:12px;
+	margin-left: 40px;
+}
+.button{
+	width: 200px;
+	height: 30px;
+	background: #3C8527;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+.poluchit{
+	font-size: 12px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-left: 29px;	
+}
+.start{
+	width: 100%;
+	height: 700px;
+	background: #000000;
+}
+.fon{
+	width: 1200px;
+	height: 600px;
+	background-image: url(https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg);
+	display: flex;
+	background-size: 100%;
+	margin-left: 120px;
+}
+.textinf{
+	width: 562px;
+	height: 462px;
+	margin-left: 80px		;
+	
+
+}
+.minetext{
+	font-size: 50px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 50px;
+	
+	
+}
+.inf{
+	width: 562px;
+	font-size: 50px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	text-decoration: none;
+	margin-top: 40px;
+	
+}
+.bigbutton{
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	background: #3C8527;
+	margin-top: 50px;
+}
+.textvknopke{
+	font-size: 30px;
+	font-family: Noto Sans;
+	color:  #ffffff;
+	font-weight: bold;
+	margin: auto;
+	padding-top: 30px;
+}
+.stiv{
+	margin-top: 50px;
+	margin-left: 108px;
+}
+.cube {
+  width:200px;
+  height:200px;
+  position:relative;
+  animation: spinning 10s infinite;
+  transform-style:preserve-3d;
+  margin: auto;
+}
+.face{position: absolute;}
+.right{position: absolute;}
+.left{position: absolute;}
+.back{position: absolute;}
+		
+@keyframes spinning {
+	from  { transform: rotateY(0deg);   }
+	to    { transform: rotateY(360deg); }
+}
+.front  { transform: rotateY(0deg)   translateZ(100px)  }
+.right  { transform: translateX(100px)rotateY(90deg)    }
+.left   { transform: translateX(-100px)rotateY(-90deg)  }
+.back   { transform: rotateY(180deg) translateZ(100px) }
+		
+.front  { transform: rotateY(0deg)   translateZ(100px)  }
+.right  { transform: translateX(100px)rotateY(90deg)    }
+.left   { transform: translateX(-100px)rotateY(-90deg)  }
+.back   { transform: rotateY(180deg) translateZ(100px) }
+		
+.cube2 {
+  width:400px;
+  height:300px;
+  position:relative;
+  animation: spinning 10s infinite;
+  transform-style:preserve-3d;
+  margin: auto;
+}
+.telof{position: absolute;}
+.telor{position: absolute;}
+.telol{position: absolute;}
+.telob{position: absolute;}
+	
+@keyframes spinning {
+	from  { transform: rotateY(0deg);   }
+	to    { transform: rotateY(360deg); }
+}
+.front2  { transform: rotateY(0deg)   translateZ(50px)  }
+.right2  { transform: translateX(270px)rotateY(90deg)    }
+.left2   { transform: translateX(-50px)rotateY(-90deg)  }
+.back2   { transform: rotateY(180deg) translateZ(50px) }
+		
+.front2  { transform: rotateY(0deg)   translateZ(50px)  }
+.right2  { transform: translateX(270px)rotateY(90deg)    }
+.left2   { transform: translateX(-50px)rotateY(-90deg)  }
+.back2   { transform: rotateY(180deg) translateZ(50px) }
+.servers{
+	width: 100%;
+	height: 720px;
+	background-size: 100%;
+	background-image: url(https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);
+}
+.spisok{
+	width: 1140px;
+	height: 600px;
+	background: #1f1f1f;
+	padding-top: 20px;
+	margin-left: 150px;
+}
+.servera{
+	color: white;
+	margin-left: 302px;
+	font-size: 50px;
+}
+.serv1{
+	width: 100%;
+	height: 229px;
+	padding-top: 26px;
+	background: #d9d9d9;
+}
+.top{
+	display: flex;
+}
+.fotoserv1{
+	margin-left: 20px;
+	border-radius: 50px;
+}
+.knopka{
+	width: 200px;
+	height: 70px;
+	border-radius: 40px;
+	box-shadow: 5px 5px;
+	background: blue;
+	margin-left: 108px;
+
+}
+.knopka:hover{
+	width: 200px;
+	height: 70px;
+	border-radius: 40px;
+	box-shadow: 0 0;
+	background: blue;
+	margin-left: 113px;
+
+}
+.textigrat{
+	color: white;
+	font-size: 40px;
+	margin-left: 29px;
+	padding: 11px;
+}
+.idserv{
+	font-size: 30px;
+	margin-left: 20px;
+}
+.servinf{
+	font-size: 30px;
+	margin-left: 20px;
+}
+.serv2{
+	width: 100%;
+	height: 229px;
+	padding-top: 26px;
+	background: #d9d9d9;
+}
+.top1{
+	display: flex;
+}
+.fotoserv2{
+	margin-left: 20px;
+	border-radius: 50px;
+}
+.knopka{
+	width: 200px;
+	height: 70px;
+	border-radius: 40px;
+	box-shadow: 5px 5px;
+	background: blue;
+	margin-left: 108px;
+
+}
+.knopka:hover{
+	width: 200px;
+	height: 70px;
+	border-radius: 40px;
+	box-shadow: 0 0;
+	background: blue;
+	margin-left: 113px;
+
+}
+.textigrat{
+	color: white;
+	font-size: 40px;
+	margin-left: 29px;
+	padding: 11px;
+}
+.idserv2{
+	font-size: 25px;
+	margin-left: 20px;
+}
+.servinf2{
+	font-size: 25px;
+	margin-left: 20px;
+}
+.otstup{
+	width: 100%;
+	height: 20px;
+}
+.fact1{
+	width: 100%;
+	height: 520px;
+	background-size: 100%;
+	background-image: url(https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);
+	padding-top: 200px;
+	display: flex;
+}
+.snow1{
+	font-weight: bold;
+	color: white;
+	height: 81px;
+	margin-left: 200px;
+	font-size: 50px;
+}
+.snow2{
+	color: white;
+	width: 768px;
+	margin-left: 200px;
+	font-size: 40px;
+}
+.fotosnow{
+	margin-left: 82px;
+}
+.fact2{
+	width: 100%;
+	height: 520px;
+	background-size: 100%;
+	background-image: url("Group 7.png");
+	padding-top: 200px;
+	display: flex;
+}
+.bastion1{
+	font-weight: bold;
+	color: black;
+	height: 81px;
+	margin-left: 200px;
+	font-size: 50px;
+}
+.bastion2{
+	color: black;
+	width: 768px;
+	margin-left: 200px;
+	font-size: 40px;
+}
+.fotobastion{
+	margin-left: 82px;
+}
+.mods{
+	width: 100%;
+	display: flex;
+	height: 620px;
+	padding-top: 83px;
+	background-size: 100%;
+	background-image: url(https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);
+}
+.mod1{
+	text-align: center;
+	width: 200px;
+	height: 400px;
+	background: #d9d9d9;
+	margin-left: 73px;
+}
+.fotomod1{
+	width: 200px;
+	height: 200px;
+	background-image: url("image 25.png");
+}
+.textmod11{
+	font-weight: bold;
+	font-size: 12px;
+}
+.textmod12{
+	font-size: 12px;
+}
+.knopkamod{
+	align-items: center;
+	border-radius: 40px;
+	width: 100px;
+	height: 50px;
+	box-shadow: 5px 5px;
+	background: blue;
+	margin-left: 47px;
+}
+.knopkamod:hover{
+	align-items: center;
+	width: 100px;
+	height: 50px;
+	box-shadow: 0px 0px;
+	background: blue;
+	margin-left: 52px;
+}
+.mod2{
+	text-align: center;
+	width: 200px;
+	height: 400px;
+	background: #d9d9d9;
+	margin-left: 40px;
+}
+.fotomod2{
+	width: 200px;
+	height: 200px;
+	background-image: url("image 16.png");
+}
+
+.mod3{
+	text-align: center;
+	width: 300px;
+	height: 400px;
+	background: #d9d9d9;
+	margin-left: 40px;
+}
+.fotomod3{
+	width: 300px;
+	height: 200px;
+	background-image: url("image 15.png");
+}
+.knopkamod1{
+	align-items: center;
+	border-radius: 40px;
+	width: 100px;
+	height: 50px;
+	box-shadow: 5px 5px;
+	background: blue;
+	margin-left: 97px;
+}
+.knopkamod1:hover{
+	align-items: center;
+	width: 100px;
+	height: 50px;
+	box-shadow: 0px 0px;
+	background: blue;
+	margin-left: 102px;
+}
+
+
+.mod4{
+	text-align: center;
+	width: 200px;
+	height: 400px;
+	background: #d9d9d9;
+	margin-left: 40px;
+}
+.fotomod4{
+	width: 200px;
+	height: 200px;
+	background-image: url("image 14.png");
+}
+
+
+.mod5{
+	text-align: center;
+	width: 200px;
+	height: 400px;
+	background: #d9d9d9;
+	margin-left: 40px;
+}
+.fotomod5{
+	width: 200px;
+	height: 200px;
+	background-image: url("image 26.png");
+}
+.skachat{
+	padding: 16px;
+	color: white;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: black;
+}
+.footertext{
+	text-align: center;
+}
